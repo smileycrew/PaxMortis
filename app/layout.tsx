@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Header from "./components/header";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -15,7 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="min-h-screen bg-gradient-to-br from-red-600 via-yellow-500 to-orange-400">
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
