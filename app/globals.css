@@ -3,11 +3,8 @@
 @tailwind utilities;
 
 @layer base {
-    @font-face {
-        font-family: "pax";
-        src: url('../public/vampire_wars/Vampire\ Wars.ttf') format('truetype');
-    }
+  @font-face {
+    font-family: "pax";
+    src: url("../public/vampire_wars/Vampire\ Wars.ttf") format("truetype");
+  }
 }
-/* body {
-    font-family: "pax", sans-serif;
-} */
