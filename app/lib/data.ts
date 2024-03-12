@@ -1,6 +1,6 @@
 import paxImg from "@/public/paxLogoImg.png"
 import yelaImg from "@/public/yela.png"
-import grimHexImg from "@/public/grimhexImg.png"
+import grimHexImg from "@/public/grimHexImg.png"
 import ceroImg from "@/public/Cero.png"
 import regImg from "@/public/RegulatorRep.png"
 import silImg from "@/public/Silchiasruin.png"
