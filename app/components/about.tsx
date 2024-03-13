@@ -1,14 +1,7 @@
-import Button from "./button"
+type AboutProps = {
+  children: React.ReactNode
+}
 
-export default function About() {
-  return (
-    <div className="flex flex-col gap-24 ml-24 w-2/6">
-      <p className="font-bold text-2xl text-gray-800">
-        Pax Mortis is a pvp focused organization with a goal to create a culture
-        of competitive players who focus on group combat and to defy the odds
-        against us.
-      </p>
-      <Button />
-    </div>
-  )
+export default function About({ children }: AboutProps) {
+  return <p className="font-bold lg:w-2/6 text-2xl text-gray-800">{children}</p>
 }

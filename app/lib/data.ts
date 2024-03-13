@@ -39,3 +39,132 @@ export const organization = {
   home: yelaImg,
   home2: grimHexImg,
 } as const
+
+export const commanders = [
+  {
+    username: "Redacted",
+    image: "",
+    rank: imperatorImg,
+    role: "Primus",
+  },
+  {
+    username: "RiverGrit",
+    image: "",
+    rank: imperatorImg,
+    role: "Primus",
+  },
+  {
+    username: "SilentEcho",
+    image: "",
+    rank: imperatorImg,
+    role: "Primus",
+  },
+  {
+    username: "Spaceghost Prime",
+    image: "",
+    rank: imperatorImg,
+    role: "Primus",
+  },
+] as const
+
+export const praetorians = [
+  {
+    username: "Macaroni",
+    image: "",
+    rank: "",
+    role: "Legate",
+  },
+  {
+    username: "Macaroni",
+    image: "",
+    rank: "",
+    role: "Legate",
+  },
+  {
+    username: "Macaroni",
+    image: "",
+    rank: "",
+    role: "Legate",
+  },
+  {
+    username: "Macaroni",
+    image: "",
+    rank: "",
+    role: "Legate",
+  },
+  {
+    username: "Macaroni",
+    image: "",
+    rank: "",
+    role: "Legate",
+  },
+  {
+    username: "Macaroni",
+    image: "",
+    rank: "",
+    role: "Legate",
+  },
+  {
+    username: "Macaroni",
+    image: "",
+    rank: "",
+    role: "Legate",
+  },
+  {
+    username: "Macaroni",
+    image: "",
+    rank: "",
+    role: "Legate",
+  },
+]
+
+export const legionnaires = [
+  {
+    username: "Vizee",
+    image: "",
+    rank: "",
+    role: "Legate",
+  },
+  {
+    username: "Vizee",
+    image: "",
+    rank: "",
+    role: "Legate",
+  },
+  {
+    username: "Vizee",
+    image: "",
+    rank: "",
+    role: "Legate",
+  },
+  {
+    username: "Vizee",
+    image: "",
+    rank: "",
+    role: "Legate",
+  },
+  {
+    username: "Vizee",
+    image: "",
+    rank: "",
+    role: "Legate",
+  },
+  {
+    username: "Vizee",
+    image: "",
+    rank: "",
+    role: "Legate",
+  },
+  {
+    username: "Vizee",
+    image: "",
+    rank: "",
+    role: "Legate",
+  },
+  {
+    username: "Vizee",
+    image: "",
+    rank: "",
+    role: "Legate",
+  },
+]

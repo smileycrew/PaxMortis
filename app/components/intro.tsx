@@ -1,11 +1,17 @@
-import SectionHeading from "./sectionHeading"
+import IntroHeading from "./introHeading"
 import About from "./about"
+import Button from "./button"
 
 export default function Intro() {
   return (
-    <section className="flex flex-col gap-24 h-screen w-full">
-      <SectionHeading />
-      <About />
+    <section className="flex flex-col gap-24 min-h-screen p-3 w-full">
+      <IntroHeading />
+      <About>
+        Pax Mortis is a pvp focused organization with a goal to create a culture
+        of competitive players who focus on group combat and to defy the odds
+        against us.
+      </About>
+      <Button />
     </section>
   )
 }
