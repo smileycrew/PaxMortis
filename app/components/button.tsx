@@ -5,7 +5,7 @@ export default function Button() {
         Join the discord or
       </label>
       <button
-        className="active:scale-105 border-2 border-white font-bold hover:scale-110 p-3 self-start text-xl text-gray-800 transition w-full"
+        className="active:scale-105 border-2 border-white font-bold hover:scale-110 md:w-auto p-3 self-start text-xl text-gray-800 transition w-full"
         id="discord"
       >
         Get rekt
