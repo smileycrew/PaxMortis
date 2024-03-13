@@ -20,7 +20,7 @@ export default function RootLayout({
       <body
         className={`${inter.className} min-h-screen bg-gradient-to-br from-red-600 via-yellow-500 to-orange-400`}
       >
-        <Header />
+        {/* <Header /> */}
         {children}
       </body>
     </html>

@@ -1,5 +1,5 @@
 import Members from "./components/members"
-import Divider from "./components/divider"
+import Divider from "./components/emptyDivider"
 import Intro from "./components/background"
 import Section from "./components/intro"
 import Founders from "./components/founders"
