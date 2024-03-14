@@ -1,6 +1,6 @@
 import IntroHeading from "./introHeading"
 import About from "./about"
-import Button from "./button"
+import DiscordButtons from "./discordButtons"
 
 export default function Intro() {
   return (
@@ -11,7 +11,7 @@ export default function Intro() {
         of competitive players who focus on group combat and to defy the odds
         against us.
       </About>
-      <Button />
+      <DiscordButtons />
     </section>
   )
 }
